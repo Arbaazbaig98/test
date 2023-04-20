@@ -1,0 +1,47 @@
+body{
+  background-color: black;
+}
+.h{
+  text-align: center;
+  color: red;
+  /* text-decoration: solid; */
+  font-weight: bold;
+  font-size:50px;
+}
+
+.card {
+  color: whitesmoke;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 whitesmoke;
+  max-width: 220px;
+  width: 50%;
+  text-align: center;
+  font-family: arial;
+  margin:10px 10px 20px 15px;
+  padding-bottom: 10px;
+}
+
+.card img {
+   width: 92%;
+  height: 250px;
+}
+.card:hover {
+  box-shadow: 5px 0 5px 1px black;
+}
+
+.container {
+  padding: 2px 16px;
+}
+.btn {
+  cursor: pointer;
+  background-color:black;
+  color:whitesmoke;
+}
+.btn:hover{
+  background-color:white;
+  color:black;
+}
+.time{
+  text-align: 'center';
+   color: 'whitesmoke';
+}
